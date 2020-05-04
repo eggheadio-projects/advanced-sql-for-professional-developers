@@ -1,6 +1,6 @@
 # Casting Types in SQL
 
-- when creating columns we need to create types 
+- when creating columns we need to include their types 
 
 - sometimes we need to coerce a type to another type especially when joining tables 
 
