@@ -29,16 +29,15 @@ We have a table where a date column is set as `datetime` type, and we create a n
   postgres=# insert into users_temp values (now(), uuid_generate_v4(), 'michelle', 'jones');
 ```
 
-- then we create an inner join on the create_date column... 
+- then we create an inner join on the `create_date` column... 
 ```
   postgres=# select create_date from users_temp u inner join (select now() as date) n on u.create_date = n.date; 
 ```
 
-- this join will not work because one is using `datetime` and one is using `date` so we get back and empty join table... 
+- this join will not work because one (`n.date`) is using `datetime` and one is using `date`(`create_date`) so we get back an empty join table... 
 
-- we want to cast `datetime` as as `date`
-
+- we want to cast the `datetime` type as `date`
 ```
   postgres=# select create_date from users_temp u inner join (select now()::date as date) n on u.create_date = n.date; 
 ```
-  - `select now()::date as date` is the same as `select cast (now() as date) as date` 
+*- `select now()::date as date` is the same as `select cast (now() as date) as date`* 
