@@ -7,7 +7,7 @@
 ```
   postgres=# insert into users (user_handle, first_name, last_name, email) values (uuid_generate_v4(), 'Lucie', 'Jones', 'Lucie-Jones@gmail.com') on conflict do nothing; 
 ```
-    `on conflict do nothing` is the important part to notice here... 
+  **`on conflict do nothing` is the important part to notice here...** 
 
 - When this runs, if there is a conflict found the record will not be entered into the DB
 - We can also choose to `update` instead of doing `nothing` 
@@ -26,6 +26,6 @@
 ```
   postgres=# insert into users as u values (uuid_generate_v4(), 'Lucie', 'Cook', 'Lucie-Jones@gmail.com') on conflict (email) do update set first_name = excluded.first_name, last_name = excluded.last_name where u.first_name <> 'Lucie'; 
 ```
-    *<> for 'does not equal'* 
+  **<> for *'does not equal'***
 
 - In this example, if there is an `email` conflict *and*  the original records `firstname` is equal to 'Lucie' the row will not be updated 
