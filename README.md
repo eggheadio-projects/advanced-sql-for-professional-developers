@@ -1,4 +1,4 @@
-# [Advanced SQL](https://egghead.io/courses/advanced-sql)
+# [Advanced SQL for Professional Devlopers](https://egghead.io/courses/advanced-sql)
 
 <p align="center"><img src="https://d2eip9sf3oo6c2.cloudfront.net/series/square_covers/000/000/449/full/egh_adv-sql_1000.png" width="300"/></p>
 
