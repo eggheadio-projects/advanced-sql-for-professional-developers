@@ -26,4 +26,6 @@ These are notes for the Advanced SQL course on by [Tyler Clark](https://twitter.
 
 - [09- Perform Multiple Steps in One with Transactions](09-perform-multiple-steps-in-one-with-transactions.md)
 
+- [10- Filter Grouped and Aggregated Data with Having](10-filter-grouped-and-aggregated-data-with-having.md)
+
 ## Contributors
