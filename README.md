@@ -24,4 +24,6 @@ These are notes for the Advanced SQL course on by [Tyler Clark](https://twitter.
 
 - [08- Create Variables and Blocks with Do / Declare](08-create-variables-and-blocks-with-do-declare.md)
 
+- [09- Perform Multiple Steps in One with Transactions](09-perform-multiple-steps-in-one-with-transactions.md)
+
 ## Contributors
