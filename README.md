@@ -30,4 +30,6 @@ These are notes for the Advanced SQL course on by [Tyler Clark](https://twitter.
 
 - [11- Create and Safely Handle Nulls in SQL](11-create-and-safely-handle-nulls-in-sql.md)
 
+- [12- Aggregate Inline filters in SQL](12-aggregate-inline-filters-in-sql.md)
+
 ## Contributors
