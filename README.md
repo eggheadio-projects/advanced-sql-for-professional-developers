@@ -28,4 +28,6 @@ These are notes for the Advanced SQL course on by [Tyler Clark](https://twitter.
 
 - [10- Filter Grouped and Aggregated Data with Having](10-filter-grouped-and-aggregated-data-with-having.md)
 
+- [11- Create and Safely Handle Nulls in SQL](11-create-and-safely-handle-nulls-in-sql.md)
+
 ## Contributors
