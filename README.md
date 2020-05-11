@@ -34,4 +34,6 @@ These are notes for the Advanced SQL course on by [Tyler Clark](https://twitter.
 
 - [13- Pattern Matching and Regular Expressions in SQL](13-pattern-matching-and-regular-expressions-in-sql.md)
 
+- [14- Work with JSON Data in SQL](14-work-with-json-data-in-sql.md)
+
 ## Contributors
