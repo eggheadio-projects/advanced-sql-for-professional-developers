@@ -20,9 +20,8 @@ These are notes for the Advanced SQL course on by [Tyler Clark](https://twitter.
 
 - [06- Common Table Expressions in SQL](06-common-table-expressions-in-sql.md)
 
-- [07- Conditional returns with case / then](07-conditional-returns-with-case/then.md)
+- [07- Conditional returns with case / then](07-conditional-returns-with-case-then.md)
 
--
-
+- [08- Create Variables and Blocks with Do / Declare](08-create-variables-and-blocks-with-do-declare.md)
 
 ## Contributors
