@@ -32,4 +32,6 @@ These are notes for the Advanced SQL course on by [Tyler Clark](https://twitter.
 
 - [12- Aggregate Inline filters in SQL](12-aggregate-inline-filters-in-sql.md)
 
+- [13- Pattern Matching and Regular Expressions in SQL](13-pattern-matching-and-regular-expressions-in-sql.md)
+
 ## Contributors
