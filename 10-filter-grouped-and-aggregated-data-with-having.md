@@ -15,7 +15,7 @@ This code will throw an error. This is where `having` comes in.
 Look at this code to see how `having` clause is formated.
 
 ```sql
-select user_handle, sum(quantity) as total from purchases group by user_handle having sum(quantity) > 5
+select user_handle, sum(quantity) as total from purchases group by user_handle having sum(quantity) > 5;
 ```
 
 Notice that `having` is often used in conjunction with `group by`. We can use `having` without `group by`. This way, it will treat all rows as one huge group. This is not very common though.
@@ -25,7 +25,7 @@ Notice that `having` is often used in conjunction with `group by`. We can use `h
 This `having` code example above groups rows together by `user_handle` and **then** filters the rows.
 
 ```sql
-group by user_handle having sum(quantity) > 5
+group by user_handle having sum(quantity) > 5;
 ```
 
 If we look at the `where` code example, the opposite happens. The rows are filtered **then* grouped.
