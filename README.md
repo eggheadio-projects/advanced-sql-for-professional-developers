@@ -1,4 +1,9 @@
 # [Advanced SQL for Professional Devlopers](https://egghead.io/courses/advanced-sql)
+<!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
+
+[![All Contributors](https://img.shields.io/badge/all_contributors-3-orange.svg?style=flat-square)](#contributors)
+
+<!-- ALL-CONTRIBUTORS-BADGE:END -->
 
 <p align="center"><img src="https://d2eip9sf3oo6c2.cloudfront.net/series/square_covers/000/000/449/full/egh_adv-sql_1000.png" width="300"/></p>
 
@@ -37,3 +42,18 @@ These are notes for the Advanced SQL course on by [Tyler Clark](https://twitter.
 - [14- Work with JSON Data in SQL](14-work-with-json-data-in-sql.md)
 
 ## Contributors
+
+<!-- ALL-CONTRIBUTORS-LIST:START - Do not remove or modify this section -->
+<!-- prettier-ignore-start -->
+<!-- markdownlint-disable -->
+<table>
+  <tr>
+    <td align="center"><a href="https://github.com/ceoraford"><img src="https://avatars2.githubusercontent.com/u/41582216?v=4" width="100px;" alt=""/><br /><sub><b>Ceora Ford</b></sub></a><br /><a href="#content-ceoraford" title="Content">🖋</a></td>
+    <td align="center"><a href="https://williamjohnson.dev/"><img src="https://avatars2.githubusercontent.com/u/40403549?v=4" width="100px;" alt=""/><br /><sub><b>William Johnson</b></sub></a><br /><a href="https://github.com/eggheadio-projects/advanced-sql-for-professional-developers/pulls?q=is%3Apr+reviewed-by%3Awjohnson85" title="Reviewed Pull Requests">👀</a> <a href="#maintenance-wjohnson85" title="Maintenance">🚧</a></td>
+    <td align="center"><a href="https://zacjones.io"><img src="https://avatars2.githubusercontent.com/u/6188161?v=4" width="100px;" alt=""/><br /><sub><b>Zac Jones</b></sub></a><br /><a href="https://github.com/eggheadio-projects/advanced-sql-for-professional-developers/pulls?q=is%3Apr+reviewed-by%3Azacjones93" title="Reviewed Pull Requests">👀</a> <a href="#infra-zacjones93" title="Infrastructure (Hosting, Build-Tools, etc)">🚇</a></td>
+  </tr>
+</table>
+
+<!-- markdownlint-enable -->
+<!-- prettier-ignore-end -->
+<!-- ALL-CONTRIBUTORS-LIST:END -->
