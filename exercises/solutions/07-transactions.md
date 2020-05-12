@@ -1,6 +1,6 @@
 # 07
 
-## 01.a
+## 01
 ```sql
 start transaction;
 do $$
