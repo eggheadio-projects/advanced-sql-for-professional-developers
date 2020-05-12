@@ -22,7 +22,7 @@ Here's a diagram for more visual learners :)
 
 ### Key Things to Remember
 
-- filter` can only be used after an aggregate function.
+- `filter` can only be used after an aggregate function.
 
 - You can't reference the aggregated data in the `where` clause following `filter`.
 
