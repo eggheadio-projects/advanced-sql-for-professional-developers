@@ -28,6 +28,8 @@ The first create a temporary users table and insert a user:
   postgres=# insert into users_temp values (now(), uuid_generate_v4(), 'michelle', 'jones');
 ```
 
+![Casting Types 1 Image](./images/casting-types-1.png)
+
 Then we create an inner join on the `create_date` column:
 
 ```sql
@@ -37,6 +39,8 @@ Then we create an inner join on the `create_date` column:
 This join will not work because one (`n.date`) is using `datetime` and one is using `date`(`create_date`) so we get back an empty join table: 
 
 We want to cast the `datetime` type as `date`:
+
+![Casting Types 2 Image](./images/casting-types-2.png)
 
 ```sql
   postgres=# select create_date from users_temp u inner join (select now()::date as date) n on u.create_date = n.date; 
