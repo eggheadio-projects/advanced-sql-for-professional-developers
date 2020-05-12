@@ -20,6 +20,7 @@ select info from items;
 
 ### Operators for Querying JSON Data
 
+
 - `->` operator - Used with JSON object key to return value. Returns the value in JSON format (aka string format)
 
     ```sql
@@ -31,6 +32,8 @@ select info from items;
     ```sql
     select info ->> 'color' as color from items;
     ```
+
+![Operators for Querying JSON Data Image](./images/json-data.png)
 
 ### Querying Nested JSON Data
 
