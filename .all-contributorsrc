@@ -1,0 +1,22 @@
+{
+  "commit": false,
+  "files": [
+    "README.md"
+  ],
+  "badgeTemplate": "\n[![All Contributors](https://img.shields.io/badge/all_contributors-<%= contributors.length %>-orange.svg?style=flat-square)](#contributors)\n",
+  "projectName": "advanced-sql-for-professional-developers",
+  "projectOwner": "eggheadio-projects",
+  "repoType": "github",
+  "commitConvention": "none",
+  "contributors": [
+    {
+      "login": "ceoraford",
+      "name": "Ceora Ford",
+      "avatar_url": "https://avatars2.githubusercontent.com/u/41582216?v=4",
+      "profile": "https://github.com/ceoraford",
+      "contributions": [
+        "content"
+      ]
+    }
+  ]
+}
