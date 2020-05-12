@@ -4,7 +4,7 @@
 
 JSON is an accepted data type in Postgres. If we want to insert JSON into our table, we have to use parantheses and wrap our JSON objects in single quotes.
 
-```postgres
+```sql
 insert into items values (uuid_generate_v4(), (
   '{"color": "blue", "weight":"2", "tags":{"department": "electronics", "section": "computer"}}'
 ))
@@ -14,7 +14,7 @@ insert into items values (uuid_generate_v4(), (
 
 If we want to `select` our JSON data, we use `info`.
 
-```postgres
+```sql
 select info from items;
 ```
 
@@ -22,13 +22,13 @@ select info from items;
 
 - `->` operator - Used with JSON object key to return value. Returns the value in JSON format (aka string format)
 
-    ```postgres
+    ```sql
     select info -> 'color' as color from items;
     ```
 
 - `->>` operator - Does the same thing as `->` except it returns the value as plain text. There will be no quotes around the returned value.
 
-    ```postgres
+    ```sql
     select info ->> 'color' as color from items;
     ```
 
@@ -36,7 +36,7 @@ select info from items;
 
 If we want to query nested data, we have to use `->` and `->>`.
 
-```postgres
+```sql
 select info -> 'tags' ->> 'department' as department from items;
 ```
 
@@ -46,7 +46,7 @@ We place the outer key after `->` and the nested key we want the value of after 
 
 We can use aggregate functions on JSON objects. We just have to cast items to integers using `::integer`.
 
-```postgres
+```sql
 select min((info ->> 'weight')::integer) from items;
 ```
 
@@ -56,7 +56,7 @@ select min((info ->> 'weight')::integer) from items;
 
 We can use `json_each` allows us to expand the outer most JSON object into key value pairs.
 
-```postgres
+```sql
 select json_each (info) from items;
 ```
 
@@ -64,6 +64,6 @@ select json_each (info) from items;
 
 Using `json_object_keys` returns keys for the outermost JSON object. We specify the key wamt the nested object keys for.
 
-```postgres
+```sql
 select json_object_keys (info -> tags) from items;
 ```

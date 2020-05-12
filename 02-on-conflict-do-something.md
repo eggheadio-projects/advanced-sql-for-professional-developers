@@ -4,7 +4,7 @@ If we want to have completely unique records, like user accounts with email info
 
 Normally this would require 2 separate queries, but postgres offers a solution:
 
-```postgres
+```sql
   postgres=# insert into users (user_handle, first_name, last_name, email) values (uuid_generate_v4(), 'Lucie', 'Jones', 'Lucie-Jones@gmail.com') on conflict do nothing:
 ```
 
@@ -14,7 +14,7 @@ When this runs, if there is a conflict found the record will not be entered into
 
 We can also choose to `update` instead of doing `nothing`: 
 
-```postgres
+```sql
   postgres=# insert into users values (uuid_generate_v4(), 'Lucie', 'Hawkins', 'Lucie-Jones@gmail.com') on conflict (email) do update set first_name = excluded.first_name, last_name = excluded.last_name; 
 ```
 
@@ -26,7 +26,7 @@ This action is commonly referred to as an **"upsert"**.
 
 We can also update this query with a `where` clause.
 
-```postgres
+```sql
   postgres=# insert into users as u values (uuid_generate_v4(), 'Lucie', 'Cook', 'Lucie-Jones@gmail.com') on conflict (email) do update set first_name = excluded.first_name, last_name = excluded.last_name where u.first_name <> 'Lucie'; 
 ```
 

@@ -4,7 +4,7 @@
 
 The `coalesce` function accepts an unlimited number of arguments and returns the first non-null argument.
 
-```postgres
+```sql
 select title, coalesce(excerpt, left(body, 40)) from posts;
 ```
 
@@ -18,7 +18,7 @@ In the code example above, if the value for `excerpt` is an empty string, we wan
 
 If we want an empty string (or any value for that matter) to interpretted as null, we can use the `nullif` function.
 
-```postgres
+```sql
 select title, coalesce(nullif(excerpt, ''), left(body, 40)) from posts;
 ```
 

@@ -61,7 +61,7 @@ When we run `explain select * from users;`, the `select` initiates a **sequentia
 
 The **index scan** is faster. Running this kind of command:
 
-```postgres
+```sql
 explain select * from users where user_handle = `a0eebc99-9c0b-4ef8-bb6d-6bb9bd380a11`;
 ```
 

@@ -4,7 +4,7 @@ When creating columns we need to include their types.
 
 Sometimes we need to coerce a type to another type especially when joining tables, to do this we can use `cast`:
 
-```postgres
+```sql
   postgres=# select cast (now() as date);
 
   postgres=# slect cast ('100' as integer);
@@ -12,7 +12,7 @@ Sometimes we need to coerce a type to another type especially when joining table
 
 Postgres allows us to use the shorthand `::` between the types in place of using `cast...as...`:
 
-```postgres
+```sql
   postgres=# select now()::date 
 ``` 
 
@@ -22,7 +22,7 @@ We have a table where a date column is set as `datetime` type, and we create a n
 
 The first create a temporary users table and insert a user:
 
-```postgres
+```sql
   postgres=# create temporary table users_temp (create_date date, user_handle uuid, first_name text, last_name text, email text);
 
   postgres=# insert into users_temp values (now(), uuid_generate_v4(), 'michelle', 'jones');
@@ -30,7 +30,7 @@ The first create a temporary users table and insert a user:
 
 Then we create an inner join on the `create_date` column:
 
-```postgres
+```sql
   postgres=# select create_date from users_temp u inner join (select now() as date) n on u.create_date = n.date; 
 ```
 
@@ -38,7 +38,7 @@ This join will not work because one (`n.date`) is using `datetime` and one is us
 
 We want to cast the `datetime` type as `date`:
 
-```postgres
+```sql
   postgres=# select create_date from users_temp u inner join (select now()::date as date) n on u.create_date = n.date; 
 ```
 

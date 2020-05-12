@@ -2,7 +2,7 @@
 
 This is the format when using Postgres:
 
-```postgres
+```sql
   postgres=# copy <table name> <column names> from '<full file path to CSV file>' DELIMITER ',' CSV HEADER; 
 ```
 

@@ -20,7 +20,7 @@ We use `do` to define an anonymous code block. Follow these steps to create a do
 7. End your statement with `end $$` and **don't forget your ;**.
 
 
-```postgres
+```sql
 do $$
 declare
 handle uuid := '29587e31-b631-4b2a-a31f-9771a43db98a';
@@ -34,7 +34,7 @@ end $$
 
 We can add an `if` clause into a do/declare block
 
-```postgres
+```sql
 do $$
 declare
 handle uuid := '29587e31-b631-4b2a-a31f-9771a43db98a';
@@ -52,7 +52,7 @@ end $$;
 
 We can use built-in functions with our variables. Here's an example.
 
-```postgres
+```sql
 do $$
 declare
     handle uuid := '29587e31-b631-4b2a-a31f-9771a43db98a';

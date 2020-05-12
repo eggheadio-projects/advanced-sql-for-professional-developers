@@ -6,7 +6,7 @@ We can ensure integrity by adding constraints to our tables.
 
 A powerful feature of SQL is the ability to create our own types.
 
-```postgres
+```sql
   create type user_status as enum ('member', 'instructor', 'developer');
   CREATE TYPE
 ```
@@ -15,13 +15,13 @@ We create a data type called `user_status` as an `enum` and give it the string o
 
 We can then add a column on our users table using this newly create type:
 
-```postgres
+```sql
   postgres=# alter table users add column status user_status 
 ```
 
 Now we can update a users status using our custom user_status type:
 
-```postgres
+```sql
   postgres =# update users set status = 'instructor' where first_name = 'Lucie'; 
 ```
 

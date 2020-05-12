@@ -8,7 +8,7 @@ If we want to find data the matches a certain pattern, we use `like`. `like` wil
 
 - `like 'string'` - When we specify a string, `like` will find an exact match for that string.
 
-    ```postgres
+    ```sql
     select * from users where first_name like 'tyler';
     ```
 
@@ -16,7 +16,7 @@ If we want to find data the matches a certain pattern, we use `like`. `like` wil
 
 - `like 's____'`- This will return a string that starts with s and has 4 letter/characters following. So every string that is returned will have to start with the same letter and be the same length.
 
-    ```postgres
+    ```sql
     select * from users where first_name like 't____';
     ```
 
@@ -24,7 +24,7 @@ If we want to find data the matches a certain pattern, we use `like`. `like` wil
 
 - `like 's%'` - This will return a string that starts with 's'. The length of the string doesn't matter here. As long as it starts with 's'.
 
-    ```postgres
+    ```sql
     select * from users where first_name like 't%';
     ```
 
@@ -38,7 +38,7 @@ Here's a little doodle that breaks this down visually.
 
 We can combine patterns to get desired results.
 
-```postgres
+```sql
  select * from users where first_name like '_y%';
 ```
 
@@ -50,7 +50,7 @@ What if we want to do the reverse of `like`? Aka return all rows that DON'T matc
 
 We do this with `not like`.
 
-```postgres
+```sql
 select from users where first_name not like '_y%';
 ```
 
@@ -66,7 +66,7 @@ If we want to use regular expressions when matching patterns, we have to use `si
 
 `similar to` returns true or false depending on whether or not the patter matches the given string.
 
-```postgres
+```sql
 select from users where first_name similar to '(t|m)%';
 ```
 
@@ -87,7 +87,7 @@ Here's a break down of regex symbols in SQL.
 
 Posix gives a more powerful way to pattern patch. Here's an example of posix.
 
-```postgres
+```sql
 select * from users where first_name ~ 'tyler';
 ```
 
@@ -95,6 +95,6 @@ Only returns rows where `first_name` matches `tyler`.
 
 We can add `~*` for the match to be case insensitive.
 
-```postgres
+```sql
 select * from users where first_name ~* 'Tyler';
 ```
