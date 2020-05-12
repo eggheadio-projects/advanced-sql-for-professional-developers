@@ -47,7 +47,7 @@ We place the outer key after `->` and the nested key we want the value of after 
 We can use aggregate functions on JSON objects. We just have to cast items to integers using `::integer`.
 
 ```sql
-select min((info ->> 'weight)::integer) from items;
+select min((info ->> 'weight')::integer) from items;
 ```
 
 **REMEMBER** Make sure to use `->>` since it will convert the JSON data to text first. If you don't, casting won't work.
