@@ -1,7 +1,7 @@
 # [Advanced SQL for Professional Devlopers](https://egghead.io/courses/advanced-sql)
 <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
 
-[![All Contributors](https://img.shields.io/badge/all_contributors-4-orange.svg?style=flat-square)](#contributors)
+[![All Contributors](https://img.shields.io/badge/all_contributors-5-orange.svg?style=flat-square)](#contributors)
 
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
 
@@ -99,6 +99,7 @@ This course picks up from where [Tyler Clark's SQL Fundamentals course](https://
     <td align="center"><a href="https://williamjohnson.dev/"><img src="https://avatars2.githubusercontent.com/u/40403549?v=4" width="100px;" alt=""/><br /><sub><b>William Johnson</b></sub></a><br /><a href="https://github.com/eggheadio-projects/advanced-sql-for-professional-developers/pulls?q=is%3Apr+reviewed-by%3Awjohnson85" title="Reviewed Pull Requests">👀</a> <a href="#maintenance-wjohnson85" title="Maintenance">🚧</a></td>
     <td align="center"><a href="http://www.dev.to/thecodepixi"><img src="https://avatars2.githubusercontent.com/u/16492325?v=4" width="100px;" alt=""/><br /><sub><b>Emily Harber</b></sub></a><br /><a href="#content-thecodepixi" title="Content">🖋</a></td>
     <td align="center"><a href="https://zacjones.io"><img src="https://avatars2.githubusercontent.com/u/6188161?v=4" width="100px;" alt=""/><br /><sub><b>Zac Jones</b></sub></a><br /><a href="https://github.com/eggheadio-projects/advanced-sql-for-professional-developers/pulls?q=is%3Apr+reviewed-by%3Azacjones93" title="Reviewed Pull Requests">👀</a> <a href="#infra-zacjones93" title="Infrastructure (Hosting, Build-Tools, etc)">🚇</a></td>
+    <td align="center"><a href="https://github.com/Creeland"><img src="https://avatars2.githubusercontent.com/u/518406?v=4" width="100px;" alt=""/><br /><sub><b>Creeland A. Provinsal </b></sub></a><br /><a href="https://github.com/eggheadio-projects/advanced-sql-for-professional-developers/pulls?q=is%3Apr+reviewed-by%3ACreeland" title="Reviewed Pull Requests">👀</a> <a href="#content-Creeland" title="Content">🖋</a></td>
   </tr>
 </table>
 
