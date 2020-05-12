@@ -28,7 +28,7 @@ This `having` code example above groups rows together by `user_handle` and **the
 group by user_handle having sum(quantity) > 5;
 ```
 
-If we look at the `where` code example, the opposite happens. The rows are filtered **then* grouped.
+If we look at the `where` code example, the opposite happens. The rows are filtered **then** grouped.
 
 ```sql
 where sun(quantity) > 5 group by user_handle;
