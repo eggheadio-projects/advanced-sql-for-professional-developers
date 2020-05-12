@@ -47,11 +47,13 @@ Watch Tyler's course, and continue your journey toward SQL mastery.
 _These are the questions that you ask yourself to understand better the content in front of you and connect these ideas to what you have learned in the past._
 
 How does database architecture affect your sql queries?
+
 How much, as a web developer, is this going to be applicable to me?
+
 When should I performance tune my queries?
 
 ## Prerequisites
-This course picks up from where Tyler Clark's SQL Fundamentals course (https://egghead.io/courses/sql-fundamentals) leaves off. It's recommended to view the course before diving into these lessons.
+This course picks up from where [Tyler Clark's SQL Fundamentals course](https://egghead.io/courses/sql-fundamentals) leaves off. It's recommended to view the course before diving into these lessons.
 
 - Familiarity with the CRUD actions in SQL.
 - Some knowledge in table relationships, conditional selection, data types, aggregate functions, and subqueries.
