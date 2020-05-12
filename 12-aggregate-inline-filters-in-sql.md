@@ -18,7 +18,7 @@ Without `filter`, the `where quantity > 5` code will be applied to `sum(quantity
 
 Here's a diagram for more visual learners :)
 
-![Image of code with and without filter](/images/withwithoutfilter.jpg)
+![Image of code with and without filter](./images/withwithoutfilter.jpg)
 
 ### Key Things to Remember
 
