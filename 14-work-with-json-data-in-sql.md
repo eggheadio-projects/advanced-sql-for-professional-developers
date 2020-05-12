@@ -6,9 +6,8 @@ JSON is an accepted data type in Postgres. If we want to insert JSON into our ta
 
 ```sql
 insert into items values (uuid_generate_v4(), (
-'{"color": "blue", "weight":"2", "tags":{"department": "electronics", "section": "computer"}}'
-)
-)
+  '{"color": "blue", "weight":"2", "tags":{"department": "electronics", "section": "computer"}}'
+))
 ```
 
 ## Using `info` to Query JSON Data
