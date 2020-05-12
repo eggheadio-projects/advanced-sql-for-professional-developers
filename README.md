@@ -31,6 +31,16 @@ These are notes for the Advanced SQL course on by [Tyler Clark](https://twitter.
 
 - [09- Perform Multiple Steps in One with Transactions](09-perform-multiple-steps-in-one-with-transactions.md)
 
+- [10- Filter Grouped and Aggregated Data with Having](10-filter-grouped-and-aggregated-data-with-having.md)
+
+- [11- Create and Safely Handle Nulls in SQL](11-create-and-safely-handle-nulls-in-sql.md)
+
+- [12- Aggregate Inline filters in SQL](12-aggregate-inline-filters-in-sql.md)
+
+- [13- Pattern Matching and Regular Expressions in SQL](13-pattern-matching-and-regular-expressions-in-sql.md)
+
+- [14- Work with JSON Data in SQL](14-work-with-json-data-in-sql.md)
+
 ## Contributors
 
 <!-- ALL-CONTRIBUTORS-LIST:START - Do not remove or modify this section -->
