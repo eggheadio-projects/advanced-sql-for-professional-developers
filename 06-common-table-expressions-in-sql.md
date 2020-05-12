@@ -27,7 +27,7 @@ We can use `select` or `delete` with our CTE's.
 
 We can use `delete` because of the `RETURNING` clause which will return whatever items we deleted
 
-```sql
+```postgres
 with moved_purchases as (
     delete from purchases
     RETURNING

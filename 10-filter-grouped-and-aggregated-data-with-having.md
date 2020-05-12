@@ -4,7 +4,7 @@
 
 If we want to filter an data using aggregate functions, we can't use `where`. That will return an error.
 
-```sql
+```postgres
 select user_handle, sum(quantity) as total from purchases where sun(quantity) > 5 group by user_handle;
 ```
 
@@ -14,7 +14,7 @@ This code will throw an error. This is where `having` comes in.
 
 Look at this code to see how `having` clause is formated.
 
-```sql
+```postgres
 select user_handle, sum(quantity) as total from purchases group by user_handle having sum(quantity) > 5;
 ```
 
@@ -24,13 +24,13 @@ Notice that `having` is often used in conjunction with `group by`. We can use `h
 
 This `having` code example above groups rows together by `user_handle` and **then** filters the rows.
 
-```sql
+```postgres
 group by user_handle having sum(quantity) > 5;
 ```
 
 If we look at the `where` code example, the opposite happens. The rows are filtered **then** grouped.
 
-```sql
+```postgres
 where sun(quantity) > 5 group by user_handle;
 ```
 
@@ -42,12 +42,12 @@ An **Aggregate function** is a function that takes multiple inputs and performs 
 
 Examples of aggregate functions include:
 
-- sum()
+- `sum()`
 
-- avg()
+- `avg()`
 
-- min()
+- `min()`
 
-- max()
+- `max()`
 
 In both code examples, `sum(quantity)` is used.

@@ -12,7 +12,7 @@ Follow these steps for creating a transaction:
 
 3. End the transaction with `commit;`. **Note: None of the code within the transaction block will be executed unless you run `commit;
 
-```sql
+```postgres
 start transaction;
 
 insert into purchases values ('2019-05-20', uuid-generate_v4(), 1);
@@ -28,7 +28,7 @@ Both `begin` and `start transaction` are valid when making a transaction. They d
 
 `savepoint` is used to put a bookmark in our transaction. It's used in conjunction with the `rollback`.
 
-```sql
+```postgres
 begin;
 
 insert into purchases values ('2019-10-10', uuid_generate_v4(), 1);

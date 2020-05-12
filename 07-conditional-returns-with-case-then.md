@@ -6,7 +6,7 @@ Case expressions are very similar to if statements in other programming language
 
 This is how we initiate a case statement.
 
-```sql
+```postgres
 select first_name,
 case when status is null then 'member' else status end
 from users;
@@ -26,7 +26,7 @@ We can make our case statements more complex by adding more `when`'s and `then`'
 
 If we would like to add additional filters for our table data, we can use `where`.
 
-```sql
+```postgres
 select first_name,
 case when status is null then 'member' else status end
 from users
@@ -39,7 +39,7 @@ The `where` statement above will return the opposite of the above code.
 
 We can use a `case`statement inside of a `where` statement.
 
-```sql
+```postgres
 where case when email is not null then start_date > '2019-01-01' end;
 ```
 

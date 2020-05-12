@@ -4,13 +4,13 @@
 
 A `filter` clause is used to apply a `where` clause (aka filtered data) only to the column that the aggregate function is being applied to. `filter` isolates the `where` clause to only affect aggregate function output.
 
-```sql
+```postgres
 select min(date), sum(quantity) filter (where quantity > 5) from purchases;
 ```
 
 In the example above, `where quantity > 5` will only be applied to `sum(quantity)` all thanks to `filter`.
 
-```sql
+```postgres
 select min(date), sum(quantity) from purchases where quantity > 5;
 ```
 
@@ -26,7 +26,7 @@ Here's a diagram for more visual learners :)
 
 - You can't reference the aggregated data in the `where` clause following `filter`.
 
-```sql
+```postgres
 select min(date), sum(quantity) filter (where sum > 5) from purchases;
 ```
 
