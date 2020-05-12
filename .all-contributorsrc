@@ -27,6 +27,15 @@
         "review",
         "maintenance"
       ]
+    },
+    {
+      "login": "thecodepixi",
+      "name": "Emily Harber",
+      "avatar_url": "https://avatars2.githubusercontent.com/u/16492325?v=4",
+      "profile": "http://www.dev.to/thecodepixi",
+      "contributions": [
+        "content"
+      ]
     }
   ]
 }
