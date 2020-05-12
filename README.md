@@ -9,7 +9,52 @@
 
 ## About
 
-These are notes for the Advanced SQL course on by [Tyler Clark](https://twitter.com/iamtylerwclark).
+These are notes for the [Advanced SQL for Professional Devlopers](https://egghead.io/courses/advanced-sql) course on by [Tyler Clark](https://twitter.com/iamtylerwclark). 
+
+They are designed to be studied along side the course. Please add to them and put in a PR, we'd love to hear your thoughts!
+
+## Description
+
+You've got some practice with using SQL to select, update, and join database tables.
+
+But perhaps you've found yourself with a sneaking suspicion that you could be more efficient with your PostgreSQL.
+
+Does your query seem slow?
+
+A lesson on how to profile queries will point you in the direction of a fix.
+
+Are you performing multi-step operations one at a time that are susceptible to errors?
+
+The "all or nothing" transaction is the cure.
+
+These are just a couple of examples of the techniques, tips, and tricks that Tyler Clark has learned in his years of experience working on large scale production applications.
+
+Other topics in this course include working with CSV files, different techniques for aggregating & filtering, and more!
+
+Watch Tyler's course, and continue your journey toward SQL mastery.
+
+## What you'll learn:
+- Bulk insert and export from csv
+- Casting types in SQL
+- Define Custom Types (like ENUMs) for data integrity
+- Analyze query performance for optimal queries
+- Write concise queries with CTE's (Common Table Expressions) and do/declare blocks
+- Filter Aggregate data with having
+- Guarantee database interactions with Transactions
+- Complex pattern matching
+
+## Essential Questions
+_These are the questions that you ask yourself to understand better the content in front of you and connect these ideas to what you have learned in the past._
+
+How does database architecture affect your sql queries?
+How much, as a web developer, is this going to be applicable to me?
+When should I performance tune my queries?
+
+## Prerequisites
+This course picks up from where Tyler Clark's SQL Fundamentals course (https://egghead.io/courses/sql-fundamentals) leaves off. It's recommended to view the course before diving into these lessons.
+
+- Familiarity with the CRUD actions in SQL.
+- Some knowledge in table relationships, conditional selection, data types, aggregate functions, and subqueries.
 
 ## Table of Contents
 
