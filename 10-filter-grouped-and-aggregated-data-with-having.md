@@ -42,12 +42,12 @@ An **Aggregate function** is a function that takes multiple inputs and performs 
 
 Examples of aggregate functions include:
 
-- sum()
+- `sum()`
 
-- avg()
+- `avg()`
 
-- min()
+- `min()`
 
-- max()
+- `max()`
 
 In both code examples, `sum(quantity)` is used.
