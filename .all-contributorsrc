@@ -65,6 +65,18 @@
         "review",
         "content"
       ]
+    },
+    {
+      "login": "MaggieAppleton",
+      "name": "Appleton",
+      "avatar_url": "https://avatars0.githubusercontent.com/u/5599295?v=4",
+      "profile": "http://maggieappleton.com",
+      "contributions": [
+        "design"
+      ]
     }
-  ]
+  ],
+  "repoHost": "https://github.com",
+  "skipCi": true,
+  "contributorsPerLine": 7
 }
