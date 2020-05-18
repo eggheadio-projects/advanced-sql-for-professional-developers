@@ -21,7 +21,7 @@ The `cost` output shows two different values that are seperated by 2 dots --> **
 
 Here's a little visual to make this easier to visualize :)
 
-![Image of cost output](images/explain-sql-output.jpg)
+![Image of cost output](https://res.cloudinary.com/dg3gyk0gu/image/upload/v1589829472/transcript-images/explain-sql-output.jpg)
 
 ## Using Different Formats for `explain` Output
 

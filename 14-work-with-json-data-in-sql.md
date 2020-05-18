@@ -33,7 +33,7 @@ select info from items;
     select info ->> 'color' as color from items;
     ```
 
-![Operators for Querying JSON Data Image](./images/json-data.png)
+![Operators for Querying JSON Data Image](https://res.cloudinary.com/dg3gyk0gu/image/upload/v1589829472/transcript-images/json-data.jpg)
 
 ### Querying Nested JSON Data
 
