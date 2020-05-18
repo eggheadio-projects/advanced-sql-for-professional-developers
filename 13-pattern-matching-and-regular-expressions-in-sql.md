@@ -32,7 +32,7 @@ If we want to find data the matches a certain pattern, we use `like`. `like` wil
 
 Here's a little doodle that breaks this down visually.
 
-![Image of like options](/images/like-illustration.jpeg)
+![Image of like options](https://res.cloudinary.com/dg3gyk0gu/image/upload/v1589829472/transcript-images/like-illustration.jpg)
 
 ### Combining Patterns
 

@@ -16,7 +16,7 @@ from users;
 
 Here's a diagram to help :)
 
-![Image of case statement anatomy](/images/case-statement-anatomy.jpg)
+![Image of case statement anatomy](https://res.cloudinary.com/dg3gyk0gu/image/upload/v1589829472/transcript-images/case-statement-anatomy.jpg)
 
 ### Making More Complex Case Expressions
 
