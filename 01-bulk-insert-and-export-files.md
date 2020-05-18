@@ -10,7 +10,7 @@ This is the format when using Postgres:
 
 This comand will bulk insert all rows from the file into the table.
 
-![SQL Bulk Import Gif](./images/sql-bulkimport.gif)
+![SQL Bulk Import Gif](https://res.cloudinary.com/dg3gyk0gu/image/upload/v1589830294/transcript-images/sql-bulkimport.gif)
 
 The `copy` command makes this possible. Defining columns is optional, and renames the columns from the original file. If left out, `HEADER` will be pulled in from the imported file. 
 
