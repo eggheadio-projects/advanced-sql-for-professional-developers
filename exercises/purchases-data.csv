@@ -1,4 +1,4 @@
-date,id,sku,quantity
+date,user_handle,sku,quantity
 11/8/2019,79,18302861,6
 3/30/2020,51,18302862,1
 7/11/2019,75,18302863,3
