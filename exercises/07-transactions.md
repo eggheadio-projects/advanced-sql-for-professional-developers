@@ -8,7 +8,7 @@ $ drop table users;
 
 ```sql
 $ create table users (
-user_handle int Primary key,
+user_handle uuid Primary key,
 first_name text,
 last_name text,
 email text,
@@ -27,7 +27,7 @@ insert into users values ('1', 'Agustin', 'Gillingham', 'agillingham8@devhub.com
 Your goal is to guarantee that a payment is successfully processed. To do so, you will need to initiate a transaction that:
  - checks if product is available
  - inserts payment info into users table
- - adds item to purchases table
+ - adds items to purchases table
 
  If any of these actions fail, the transaction should be aborted.
 
