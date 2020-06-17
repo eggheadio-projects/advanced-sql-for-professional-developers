@@ -15,4 +15,4 @@ group by user_handle, sku;
 
 ## 02. 
 
-Your goal is to find the average quantity a single user is purchasing of each product. You will need to use the CTE that you defined in Part 1 to do so.
+Your goal is to find the average quantity a single user is purchasing of each product instead of all of the users. You will need to re-use the CTE that you defined in Part 1 to do so.
