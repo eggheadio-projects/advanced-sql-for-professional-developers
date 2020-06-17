@@ -29,7 +29,7 @@ $ postgres=#
 ## Create Tables
 ```sql
 create table users (
-user_handle int Primary key,
+user_handle uuid Primary key,
 first_name text,
 last_name text,
 email text,
@@ -41,14 +41,14 @@ language text
 ```sql
 create table purchases (
 date date,
-user_handle int,
-sku int,
+user_handle uuid,
+sku uuid,
 quantity int
 );
 ```
 ```sql
 create table products (
-sku int,
+sku uuid,
 product text,
 price money
 );
