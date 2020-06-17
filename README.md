@@ -1,7 +1,7 @@
 # [Advanced SQL for Professional Devlopers](https://egghead.io/courses/advanced-sql)
 <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
 
-[![All Contributors](https://img.shields.io/badge/all_contributors-9-orange.svg?style=flat-square)](#contributors)
+[![All Contributors](https://img.shields.io/badge/all_contributors-10-orange.svg?style=flat-square)](#contributors)
 
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
 
@@ -106,6 +106,7 @@ This course picks up from where [Tyler Clark's SQL Fundamentals course](https://
   <tr>
     <td align="center"><a href="https://github.com/oboshto"><img src="https://avatars3.githubusercontent.com/u/903622?v=4" width="100px;" alt=""/><br /><sub><b>Oboshto</b></sub></a><br /><a href="#content-oboshto" title="Content">🖋</a></td>
     <td align="center"><a href="http://darkwark.com"><img src="https://avatars0.githubusercontent.com/u/1868217?v=4" width="100px;" alt=""/><br /><sub><b>Kamil Khadeyev</b></sub></a><br /><a href="#design-darkwark" title="Design">🎨</a></td>
+    <td align="center"><a href="http://www.kevincunningham.co.uk"><img src="https://avatars3.githubusercontent.com/u/8320213?v=4" width="100px;" alt=""/><br /><sub><b>Kevin Cunningham</b></sub></a><br /><a href="#userTesting-doingandlearning" title="User Testing">📓</a></td>
   </tr>
 </table>
 
