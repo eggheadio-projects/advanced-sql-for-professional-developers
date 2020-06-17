@@ -1,3 +1,4 @@
+## 01
 ```sql
 SELECT 
   u.user_handle, 
@@ -28,4 +29,13 @@ user_handle | sum
            2 | 146
           36 | 126
           93 | 110
+```
+
+## 02
+```sql
+postgres=# select email, users.user_handle, age, gender, sum(quantity) as total from users join purchases on (users.user_handle = purchases.user_handle) where sku=18302880 group by users.user_handle;
+       email          | user_handle | age | gender | total
+------------------------<del>-------------</del>-----<del>--------</del>--&#x2013;&#x2014;
+atanslief@berkeley.edu | 16 | 19 | Male | 12
+(1 row)
 ```
