@@ -1,3 +1,6 @@
+<h1 align="center"><a href="https://github.com/eggheadio/eggheadio-course-notes">:warning: notes have been moved to eggheadio-course-notes!</a></h1>
+
+
 # [Advanced SQL for Professional Devlopers](https://egghead.io/courses/advanced-sql)
 <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
 
